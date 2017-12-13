@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{549CE2A6-77C3-4644-8D1F-4FF41998E286}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ThemeSample</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <ReleaseVersion>0.1.1.1</ReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <DefineConstants>DEBUG;__UNIFIED__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <AssemblyName>GunmetalThemeiOSSample</AssemblyName>
+    <OutputPath>bin\unified\iPhoneSimulator\Debug</OutputPath>
+    <BaseIntermediateOutputPath>obj\unified\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\unified\iPhoneSimulator\Debug</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <AssemblyName>GunmetalThemeiOSSample</AssemblyName>
+    <OutputPath>bin\unified\iPhoneSimulator\Release</OutputPath>
+    <BaseIntermediateOutputPath>obj\unified\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\unified\iPhoneSimulator\Release</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchDebug>True</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+    <AssemblyName>GunmetalThemeSampleiOS</AssemblyName>
+    <OutputPath>bin\unified\iPhone\Debug</OutputPath>
+    <BaseIntermediateOutputPath>obj\unified\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\unified\iPhone\Debug</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <AssemblyName>GunmetalThemeSampleiOS</AssemblyName>
+    <OutputPath>bin\unified\iPhone\Release</OutputPath>
+    <BaseIntermediateOutputPath>obj\unified\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\unified\iPhone\Release</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <BuildIpa>True</BuildIpa>
+    <ConsolePause>False</ConsolePause>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <AssemblyName>GunmetalThemeSampleiOS</AssemblyName>
+    <OutputPath>bin\unified\Ad-Hoc\</OutputPath>
+    <BaseIntermediateOutputPath>obj\unified\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\unified\Ad-Hoc\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <AssemblyName>GunmetalThemeSampleiOS</AssemblyName>
+    <OutputPath>bin\unified\AppStore\</OutputPath>
+    <BaseIntermediateOutputPath>obj\unified\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\unified\AppStore\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="GunmetalTheme.Controls.iOS.AlertView">
+      <HintPath>../../lib\/ios-unified/GunmetalTheme.Controls.iOS.AlertView.dll</HintPath>
+    </Reference>
+    <Reference Include="GunmetalTheme.Controls.iOS.ProgressBar">
+      <HintPath>../../lib\/ios-unified/GunmetalTheme.Controls.iOS.ProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="GunmetalTheme.Controls.iOS.Switch">
+      <HintPath>../../lib\/ios-unified/GunmetalTheme.Controls.iOS.Switch.dll</HintPath>
+    </Reference>
+    <Reference Include="GunmetalTheme.iOS">
+      <HintPath>../../lib\/ios-unified/GunmetalTheme.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="UI\iPad\PopoverDemoController.cs" />
+    <Compile Include="UI\iPad\PopoverDemoController.designer.cs">
+      <DependentUpon>PopoverDemoController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\iPhone\ListViewController.cs" />
+    <Compile Include="UI\iPhone\ListViewController.designer.cs">
+      <DependentUpon>ListViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Common\MasterCell.cs" />
+    <Compile Include="UI\Common\MasterCell.designer.cs">
+      <DependentUpon>MasterCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\iPad\DetailsController.cs" />
+    <Compile Include="UI\iPad\DetailsController.designer.cs">
+      <DependentUpon>DetailsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\iPad\MasterController.cs" />
+    <Compile Include="UI\iPad\MasterController.designer.cs">
+      <DependentUpon>MasterController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\iPhone\ElementsController.cs" />
+    <Compile Include="UI\iPhone\ElementsController.designer.cs">
+      <DependentUpon>ElementsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\iPhone\ButtonsController.cs" />
+    <Compile Include="UI\iPhone\ButtonsController.designer.cs">
+      <DependentUpon>ButtonsController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\iPhone\DetailController.cs" />
+    <Compile Include="UI\iPhone\OtherView.cs" />
+    <Compile Include="UI\iPhone\OtherView.designer.cs">
+      <DependentUpon>OtherView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="Libraries\" />
+    <Folder Include="UI\" />
+    <Folder Include="UI\iPhone\" />
+    <Folder Include="UI\iPad\" />
+    <Folder Include="UI\Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Default-568h%402x.png" />
+    <BundleResource Include="Resources\list-frame.png" />
+    <BundleResource Include="Resources\list-frame%402x.png" />
+    <BundleResource Include="Resources\avatar1.png" />
+    <BundleResource Include="Resources\tab-icon1.png" />
+    <BundleResource Include="Resources\tab-icon1%402x.png" />
+    <BundleResource Include="Resources\tab-icon2.png" />
+    <BundleResource Include="Resources\tab-icon2%402x.png" />
+    <BundleResource Include="Resources\tab-icon3.png" />
+    <BundleResource Include="Resources\tab-icon3%402x.png" />
+    <BundleResource Include="Resources\tab-icon4.png" />
+    <BundleResource Include="Resources\tab-icon4%402x.png" />
+    <BundleResource Include="Resources\action_menu.png" />
+    <BundleResource Include="Resources\action_menu%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="UI\iPad\MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="UI\iPhone\MainStoryboard_iPhone.storyboard" />
+  </ItemGroup>
+</Project>

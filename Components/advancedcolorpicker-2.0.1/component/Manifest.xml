@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="advancedcolorpicker" is-shell="true">
+  <name>Advanced Color Picker</name>
+  <publisher>Xamarin Inc</publisher>
+  <publisher-url>http://xamarin.com</publisher-url>
+  <src-url>https://github.com/xamarin/XamarinComponents/tree/master/iOS/AdvancedColorPicker</src-url>
+  <version>2.0.1</version>
+  <summary>An open source color picker component for Xamarin.iOS.</summary>
+  <packages>
+    <package id="AdvancedColorPicker" version="2.0.1" framework="ios-unified" />
+  </packages>
+  <samples>
+    <sample id="AdvancedColorPickerDemo">
+      <name>iOS Sample</name>
+      <summary>iOS Sample</summary>
+    </sample>
+  </samples>
+</component>

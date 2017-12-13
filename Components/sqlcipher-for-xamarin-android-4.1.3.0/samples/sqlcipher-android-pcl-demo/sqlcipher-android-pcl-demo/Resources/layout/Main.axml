@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/clear"
+            android:layout_marginLeft="35dp"
+            android:layout_width="149.5dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:layout_marginRight="0.0dp"
+            android:onClick="ClearClick" />
+        <Button
+            android:text="Run Demo"
+            android:layout_width="155.2dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/runDemo"
+            android:layout_marginLeft="0.0dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/Content"
+        android:layout_marginLeft="35dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+</LinearLayout>

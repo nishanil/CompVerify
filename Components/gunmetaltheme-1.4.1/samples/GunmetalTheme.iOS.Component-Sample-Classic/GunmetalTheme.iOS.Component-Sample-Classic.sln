@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunmetalTheme.iOS.Sample-Classic", "GunmetalTheme.iOS.Sample-Classic.csproj", "{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Release|iPhone.Build.0 = Release|iPhone
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{BC5B83AD-1AF0-4C6E-94C0-9DB51017C35B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = GunmetalTheme.iOS.Sample-Classic.csproj
+		version = 0.1.1.1
+	EndGlobalSection
+EndGlobal

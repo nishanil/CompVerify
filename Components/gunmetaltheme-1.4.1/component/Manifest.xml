@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="gunmetaltheme">
+  <name>Gunmetal Theme</name>
+  <publisher>Xamarin Inc</publisher>
+  <publisher-url>http://www.xamarin.com</publisher-url>
+  <version>1.4.1</version>
+  <summary>A dark, metallic theme, and a sample iOS app that showcases the theme and includes several custom UI controls.</summary>
+  <screenshots>
+    <img src="screenshots/00.png" title="00" />
+    <img src="screenshots/01.png" title="01" />
+  </screenshots>
+  <samples>
+    <sample id="GunmetalTheme.iOS.Component-Sample-Unified">
+      <name>iOS Unified Sample</name>
+      <summary>iOS Unified Sample</summary>
+    </sample>
+    <sample id="GunmetalTheme.iOS.Component-Sample-Classic">
+      <name>iOS Classic Sample</name>
+      <summary>iOS Classic Sample</summary>
+    </sample>
+  </samples>
+</component>

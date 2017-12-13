@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="sqlcipher-for-xamarin-android">
+  <name>SQLCipher Android</name>
+  <publisher>Zetetic LLC</publisher>
+  <publisher-url>https://www.zetetic.net/sqlcipher/</publisher-url>
+  <version>4.1.3.0</version>
+  <summary>Full database encryption using 256-bit AES.</summary>
+  <packages>
+    <package id="SQLite.Net.Core-PCL" version="3.1.1" />
+  </packages>
+  <samples>
+    <sample id="sqlcipher-android-pcl-demo">
+      <name>SQLCipher for Android PCL Demo</name>
+      <summary>SQLCipher for Android PCL Demo</summary>
+    </sample>
+  </samples>
+</component>
